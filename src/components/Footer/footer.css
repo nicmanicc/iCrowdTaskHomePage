@@ -1,0 +1,42 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+}
+.footer-signup {
+    width: 70%;
+    
+}
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+    background-image: -webkit-linear-gradient(45deg, #671ae5,#f79900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social-heading {
+    margin-right: 1rem;
+}
+.newsletter {
+    display: inline-block;
+    flex-direction: row;
+    margin-bottom: 0;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+h2.newsletter {
+    background-image: -webkit-linear-gradient(45deg, #671ae5,#f79900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+input.newsletter {
+    width: 30%;
+    height: 38px;
+}
